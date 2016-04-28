@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "TabTimer",
+    "short_name": "TabTimer",
+    "version": "0.1",
+    "description": "Lets try",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "background",
+        "alarms",
+        "tabs",
+        "http://*/",
+        "https://*/"
+    ],
+    "background": {
+        "page": "background.html"
+    },
+    "browser_action": {
+        "default_icon": "img/officon.png",
+        "default_popup": "popup.html",
+        "default_title": "TabTimer"
+    },
+    "icons": {
+        "16": "img/officon.png",
+        "48": "img/officon.png",
+        "128": "img/officon.png"
+    }
+}

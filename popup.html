@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Suuuuper popup !</title>
+    <!-- Import matching CSS file -->
+    <link type="text/css" href="css/popup.css" rel="stylesheet"></link>
+    <!-- Import script to react to actions-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/popup.js"></script>
+</head>
+
+<body>
+    <div class="groupTime">
+        <div class="menuOption" id="time">
+            <input type="datetime-local" id="ipDatetime" /> time
+        </div>
+    </div>
+    <!-- possible actions -->
+    <div class="groupOptions">
+        <div class="menuOption" id="addCurrent">
+            <i class="op Add"></i> <span class="optionText">add current URL</span>
+        </div>
+        <div class="menuOption" id="removeCurrent">
+            <i class="op Remove"></i> <span class="optionText">remove current URL</span>
+        </div>
+    </div>
+    <div class="groupSettings">
+        <div class="menuOption" id="settingsLink">
+            <i class="op Settings"></i> <span class="optionText">Settings</span>
+        </div>
+    </div>
+    <!-- simple status for debugging -->
+    <div id="status">
+        <a href="www.google.de"></a>
+    </div>
+</body>
+
+</html>
