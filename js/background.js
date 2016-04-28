@@ -10,7 +10,7 @@ function addListItem(guid, url, date) {
     list.appendChild(listEntry);
 };
 
-/*
+/* 
 	var list = document.getElementById('urlList')
 						.getElementsByTagName('li');
 	
